@@ -1,0 +1,28 @@
+.saved-container{
+    width: 100px;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(233, 228, 229); 
+    border-radius: 8px;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    text-transform: capitalize;
+    align-items: center;
+    margin: 1%;
+}
+.saved-name {
+    padding-right: 5px;
+}
+
+.saved-date {
+    padding-right: 5px;
+}
+
+.saved-delete-icon {
+    padding: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}

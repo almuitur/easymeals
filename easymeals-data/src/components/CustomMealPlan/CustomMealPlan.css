@@ -1,0 +1,30 @@
+
+.custom-plan {
+    background: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    width: 95%;
+    margin: 0 auto;
+}
+
+.custom-plan-categories-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 20px;
+}
+
+.category {
+    width: 10%;
+    padding: 5px;
+    margin: 20px 5px;
+    border-radius: 10px;
+}
+.category-name {
+    background-color: rgb(233, 177, 186);
+    padding: 10px;
+    margin: 5px;
+    font-size: 1em;
+    border-radius: 10px;
+}

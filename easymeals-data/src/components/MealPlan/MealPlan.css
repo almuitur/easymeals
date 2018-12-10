@@ -1,0 +1,181 @@
+.meal-plan {
+    background: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 0 auto;
+    overflow: scroll;
+}
+.meal-plan-title {
+    margin-top: 10px;
+    font-size: 22px;
+}
+
+.meal-plan-name {
+    font-size: 14px;
+}
+
+.meal-plan-input {
+    width: 80%;
+    margin-left: 4%;
+    display: flex;
+    flex-direction: row;
+}
+
+#button-add {
+    border: none;
+    background: transparent;
+    cursor: pointer;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin: 50px;
+}
+
+.meal-plan-days-container {
+    width: 95%;
+    margin: 30px auto 0;
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 1px solid #F77B72;
+}
+
+.meal-plan-day {
+    font-size: 0.8em;
+}   
+
+.meal-plan-meals-container{
+    width: 95%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    overflow: scroll;
+}
+
+.day-meal {
+    margin: 10px;
+    font-size: 0.6em;
+}
+
+.column {
+    width: 14%;
+    padding: 5px;
+    margin: 20px 5px;
+    background-color: rgb(226, 225, 225);
+    border-radius: 10px;
+}
+
+.moddalShoppingList {
+    width: 70%;
+    height: 70%;
+    margin: 0 auto;
+    background-color: grey;
+    z-index: 500;
+}
+.meal-plan-no h1 {
+    font-size: 30px;
+    margin: 10% auto 40% auto;
+}
+
+.meal-plan-button {
+    color: white;
+    background-color: #F77B72;
+    width: 25%;
+    height: 3%;
+    padding: 0.2em;
+    border-radius: 10px;
+    border: none;
+    margin: 3%;
+    font-size: 12px;
+}
+
+
+/* @media screen and (min-width: 600px) and (max-width: 799px) {
+
+} */
+
+@media screen and (min-width: 800px) {
+    .meal-plan {
+        background: white;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin: 0 auto;
+        overflow: visible;
+    }
+    .meal-plan-title {
+        margin-top: 20px;
+    }
+    .meal-plan-input {
+        width: 80%;
+        margin-left: 4%;
+        display: flex;
+        flex-direction: row;
+    }
+    
+    #button-add {
+        border: none;
+        background: transparent;
+        cursor: pointer;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        margin: 50px;
+    }
+
+    .meal-plan-days-container {
+        width: 95%;
+        margin: 50px auto 0;
+        display: flex;
+        justify-content: space-around;
+        border-bottom: 2px solid #F77B72;
+    }
+
+    .meal-plan-day {
+        font-size: 1.2em;
+    }   
+
+    .meal-plan-meals-container{
+        width: 95%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-around;
+        overflow: visible;
+    }
+
+    .day-meal {
+        margin: 10px;
+        font-size: 1em;
+    }
+
+    .column {
+        width: 14%;
+        padding: 5px;
+        margin: 20px 5px;
+        background-color: rgb(226, 225, 225);
+        border-radius: 10px;
+    }
+
+    .moddalShoppingList {
+        width: 70%;
+        height: 70%;
+        margin: 0 auto;
+        background-color: grey;
+        z-index: 500;
+    }
+    .meal-plan-no h1 {
+        font-size: 30px;
+        margin: 10% auto 40% auto;
+    }
+    .meal-plan-button {
+        color: white;
+        background-color: #F77B72;
+        width: 30%;
+        height: 5%;
+        padding: 1em;
+        border-radius: 10px;
+        border: none;
+        margin: 3%;
+        font-size: 14px;
+    }
+}

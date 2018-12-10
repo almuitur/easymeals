@@ -1,0 +1,55 @@
+.options-meal {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    border-radius: 10px;
+}
+.meal {
+    background-color: white;
+    font-size: 0.9em;
+    width: 100%;
+    margin-bottom: 10%;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.meal textarea {
+    background: transparent;
+    border: none;
+    outline: none;
+    width: 100px;
+    height: 100px;
+    font-family: "Roboto", sans-serif;
+    resize: none;
+    cursor: pointer;
+}
+
+.meal-font {
+    font-size: 10px;
+}
+.options meal i {
+    font-size: 10px;
+}
+
+/* #meal-icon {
+    font-size: 10px;
+} */
+
+.fas-fa-red {
+    color: red;
+}
+
+@media screen and (min-width: 800px) {
+    .options-meal {
+        background-color: #F77B72;
+    }
+    .meal {
+        font-size: 1.2em;
+    }
+    .meal-font {
+        font-size: 14px;
+    }
+    #meal-icon {
+        font-size: 14px;
+    }
+}

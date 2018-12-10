@@ -1,0 +1,15 @@
+.saved-meal-container {
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(233, 228, 229); 
+    border-radius: 8px;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    text-transform: capitalize;
+    align-items: center;
+    margin: 1%;
+    padding-left: 5px;
+}
