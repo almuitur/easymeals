@@ -1,0 +1,182 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto");
+/* .landing-page{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url("./images/typewriter-801921_1920.jpg");
+} */
+
+body {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+}
+
+/* .login-container {
+    margin: 0 auto;
+    text-align: center;
+    width: 30%;
+    margin-top: 8%;
+}
+
+.register-container {
+    margin: 0 auto;
+    text-align: center;
+    width: 30%;
+    margin-top: 8%;
+} */
+
+.input-bar {
+    display: flex;
+    width: 90%;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+#button-add {
+    border: none;
+    background: transparent;
+    cursor: pointer;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin: 5px;
+}
+
+.logout-button-section {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-end;
+    align-content: flex-end;    
+}
+
+.logout-button {
+    border-radius: 10%;
+    padding: 10px;
+    margin: 10px;
+    color:White;
+    font-size:14px;
+    background-color: grey;
+    text-align: right;
+    text-justify: center;
+}
+
+.meals-plan {
+    background: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    width: 95%;
+    margin: 0 auto;
+}
+
+.meals-plan-days-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 1px solid #ef9a9a;
+}
+
+.meals-plan-day {
+    font-size: 1.2em;
+}
+
+.meals-plan-meals-container{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.column{
+    width: 14%;
+    padding: 5px;
+    margin: 20px 5px;
+    background-color: #E8E2E1;
+    border-radius: 10px;
+}
+
+.day-meal {
+    margin: 10px;
+    font-size: 1em;
+}
+
+.options-meal {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #E4717A;
+    border-radius: 10px;
+}
+
+.meal {
+    background-color: white;
+    width: 100%;
+    height: 120px;
+    margin-bottom: 10%;
+    border-radius: 8px;
+}
+
+.meal textarea {
+    background: transparent;
+    border: none;
+    outline: none;
+    width: 100px;
+    height: 100px;
+    font-family: "Roboto", sans-serif;
+    resize: none;
+}
+
+.custom-plan {
+    background: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    width: 95%;
+    margin: 0 auto;
+}
+
+.custom-plan-categories-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 20px;
+}
+
+.category {
+    width: 10%;
+    padding: 5px;
+    margin: 20px 5px;
+    border-radius: 10px;
+}
+.category-name {
+    background-color: rgb(233, 177, 186);
+    padding: 10px;
+    margin: 5px;
+    font-size: 1em;
+    border-radius: 10px;
+}
+
+.error {
+    color: red;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+  color: #880e4f;
+}
+
+.aLink{
+  text-decoration: none !important;
+  color: white;  
+}
+
+.aLink:hover{
+  text-decoration: none !important;
+  color: rgb(224, 219, 219);  
+}
+

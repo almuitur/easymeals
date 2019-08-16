@@ -1,0 +1,65 @@
+.home {
+    width: 90%;
+    margin: 2% auto;
+    font-family: 'Roboto', sans-serif;
+}
+
+.home-title {
+    font-weight: bold;
+    margin: 3% 0 2% 0;
+    text-align: center;
+}
+
+.selectDiet {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+.selectDiet-img{
+    width: 24%;
+    height: 100%;  
+}
+
+.selectPlan {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+
+.selectPlan-img {
+    margin-right: 1%;
+    width: 24%;
+    height: 100%;  
+}
+
+.selectIntolerance {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+
+.selectIntolerance-img {
+    margin-right: 1%;
+    width: 24%;
+    height: 100%; 
+}
+
+.home-create-button-container{
+    display: flex;
+    justify-content: center;
+}
+
+.home-create-button {
+    color: white;
+    background-color: #E4717A;
+    width: 30%;
+    height: 5%;
+    padding: 1em;
+    border-radius: 10px;
+    border: none;
+    margin: 5%;
+}

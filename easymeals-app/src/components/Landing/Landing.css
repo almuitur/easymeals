@@ -1,0 +1,67 @@
+.landing-content {
+ background-image: url("../../images/landing_.png");
+ background-repeat: no-repeat;
+ background-size: cover;
+ background-position: center center;
+ height: 99vh;
+ text-align: center;
+ margin: 1%;
+}
+
+.landing-logo {
+  width: 140px;
+  height: 140px;
+  background-image: url("../../images/logo-transparent.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  margin: auto; 
+}
+
+.landing-title-container h2 {
+  font-size: 2em;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+}
+
+@media screen and (min-device-width: 320px) and (max-device-width: 767px) { 
+
+  .landing-buttons {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .landing-buttons button {
+    width: 40%;
+    text-justify: center;
+    margin: 10px auto;
+  }
+
+}
+
+@media screen and (min-width: 775px) {
+  .landing-content {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .landing-logo { 
+    position: absolute;
+    margin-left: 38%;
+    width: 220px;
+    height: 220px;
+  }
+  .landing-title-container h2 {
+    font-size: 3em;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    position: relative;
+    margin-top: 25%;
+  }
+
+  .landing-buttons {
+    position: relative;
+  }
+}
