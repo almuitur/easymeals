@@ -20,7 +20,7 @@
     "dotenv": "^6.1.0",
     "easymeals-data": "file:../easymeals-data",
     "express": "^4.16.4",
-    "jsonwebtoken": "^8.3.0",
+    "jsonwebtoken": "^9.0.0",
     "sweetalert": "^2.1.2",
     "uuid": "^3.3.2"
   },
